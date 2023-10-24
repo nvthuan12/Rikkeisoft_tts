@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Ho_Chi_Minh
+X-LIC-LOCATION:Asia/Ho_Chi_Minh
+BEGIN:STANDARD
+TZOFFSETFROM:+0700
+TZOFFSETTO:+0700
+TZNAME:+07
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Ho_Chi_Minh:20231023T093000
+DTEND;TZID=Asia/Ho_Chi_Minh:20231023T100000
+DTSTAMP:20231023T014751Z
+ORGANIZER;CN=phucnlm@rikkeisoft.com:mailto:phucnlm@rikkeisoft.com
+UID:7atra9h36g9d07qp5e503obo33@google.com
+ATTENDEE;CUTYPE=RESOURCE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TR
+ UE;X-NUM-GUESTS=0:mailto:c_188bcrngmph1ghh9mtlovr8cq2962@resource.calendar.
+ google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=phucnlm@rikkeisoft.com;X-NUM-GUESTS=0:mailto:phucnlm@rikkeisoft.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=tudv_tts@rikkeisoft.com;X-NUM-GUESTS=0:mailto:tudv_tts@rikkeisoft.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=datndpt_tts@rikkeisoft.com;X-NUM-GUESTS=0:mailto:datndpt_tts@rikkei
+ soft.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=phuongltd_tts@rikkeisoft.com;X-NUM-GUESTS=0:mailto:phuongltd_tts@ri
+ kkeisoft.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=tamnkt@rikkeisoft.com;X-NUM-GUESTS=0:mailto:tamnkt@rikkeisoft.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=longtn2@rikkeisoft.com;X-NUM-GUESTS=0:mailto:longtn2@rikkeisoft.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=thuannv_tts@rikkeisoft.com;X-NUM-GUESTS=0:mailto:thuannv_tts@rikkei
+ soft.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=caml@rikkeisoft.com;X-NUM-GUESTS=0:mailto:caml@rikkeisoft.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=dinhtv@rikkeisoft.com;X-NUM-GUESTS=0:mailto:dinhtv@rikkeisoft.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=chuongnt_tts@rikkeisoft.com;X-NUM-GUESTS=0:mailto:chuongnt_tts@rikk
+ eisoft.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=vilht_tts@rikkeisoft.com;X-NUM-GUESTS=0:mailto:vilht_tts@rikkeisoft
+ .com
+X-GOOGLE-CONFERENCE:https://meet.google.com/tzm-bdth-opx
+X-MICROSOFT-CDO-OWNERAPPTID:69442172
+CREATED:20231023T014750Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/tz
+ m-bdth-opx\nOr dial: (US) +1 216-930-0702 PIN: 106448860#\nMore phone numbe
+ rs: https://tel.meet/tzm-bdth-opx?pin=1017366019323&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20231023T014750Z
+LOCATION:HUE-5-Cầu Tiến (7)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Giới thiệu Intern/ member
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

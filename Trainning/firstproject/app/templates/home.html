@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <!-- {% if name %}
+        <h1>Hello {{ name }}!</h1>
+    {% else %}
+        <h1>Hello, World!</h1>
+    {% endif %} -->
+    <a href="/upload"> up file</a>
+    <h1>Welcome to my Flask App</h1>
+    <p>xin chào: {{ username }}</p>
+    <p>File Name: {{name}}</p> 
+    <form action="/show_data" target="_blank">
+        <input type="submit" value="Show Image" />
+    </form>
+    
+</body>
+
+</html>
