@@ -6,19 +6,18 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    message = "Mời bạn đăng nhập!"
-    return render_template('login.html', message=message)
+    return redirect(url_for('login'))
 
+@app.route('/login')   
+def login():   
+    return render_template("login.html")
 
 @app.route('/login', methods=['POST'])
 def submit():
-    message= "Mời nhập lại!"
+
     username = request.form.get('username')
-    password = request.form.get('password')
-    if (username==' ' or  password==' ' ):
-        return render_template('login.html',message=message)
-    else:
-        return render_template('home.html',username=username)
+
+    return render_template('home.html',username=username)
 
 # upload file
 @app.route('/upload')   
@@ -27,10 +26,11 @@ def upload():
   
 @app.route('/upload', methods = ['POST'])   
 def upload_file():   
+
     if request.method == 'POST':   
         f = request.files['file'] 
         f.save(f.filename)   
-        return render_template("home.html", name = f.filename)   
+        return render_template('home.html',file=f.filename)   
   
 if __name__ == '__main__':   
     app.run(debug=True)
