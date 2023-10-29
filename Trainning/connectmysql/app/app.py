@@ -44,7 +44,7 @@ def register():
         values=(name_user,email,password)
         cursor.execute(query,values)
         db.commit()
-        return redirect(url_for('index'))
+        return redirect(url_for('index'),)
     return render_template('register.html')
 
 if __name__=='__main__':

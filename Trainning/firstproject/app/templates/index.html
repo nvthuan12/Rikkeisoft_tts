@@ -1,0 +1,19 @@
+<!-- <!doctype html>
+<title>My Application</title>
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    
+    {% for message in messages %}
+    
+    {% endfor %}
+
+  {% endif %}
+{% endwith %} -->
+
+
+{% extends "base.html" %}
+
+{% block body %}
+    <h1>Xin chào: {{username}}</h1>
+    <a href="{{url_for('logout')}}">Đăng xuất</a>
+{% endblock %}

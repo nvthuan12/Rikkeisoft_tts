@@ -1,8 +1,23 @@
-<!doctype html>
+<!-- <!doctype html>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <section class="content">
     <header>
       {% block header %}{% endblock %}
     </header>
     {% block content %}{% endblock %}
-  </section>
+  </section> -->
+
+<!doctype html>
+<title>My Application</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+
+  {% for message in messages %}
+  <p>{{message}}</p>
+  {% endfor %}
+
+{% endif %}
+{% endwith %}
+{% block body %}
+{% endblock %}
