@@ -31,6 +31,15 @@ def upload_file():
         f = request.files['file'] 
         f.save(f.filename)   
         return render_template('home.html',file=f.filename)   
+    
+@app.route('/returnjson', methods = ['GET']) 
+def ReturnJSON(): 
+    if(request.method == 'GET'): 
+        data = { 
+            "id" : 1, 
+            "Name" : "helloo", 
+        } 
+        return jsonify(data) 
   
 if __name__ == '__main__':   
     app.run(debug=True)

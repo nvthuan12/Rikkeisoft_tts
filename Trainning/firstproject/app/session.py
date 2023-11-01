@@ -3,10 +3,8 @@ import session
 from flask import Flask, session, request, json, make_response, redirect, render_template, url_for
 from datetime import timedelta
 app = Flask(__name__)
+
 app.secret_key = "abc!!!"
-
-
-
 @app.route('/')
 def index():
     if 'username' in session:
